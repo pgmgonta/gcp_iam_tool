@@ -9,3 +9,6 @@
 - analyst:
     - roles/bigquery.dataViewer
     - roles/bigquery.user
+
+- owner:
+    - roles/owner

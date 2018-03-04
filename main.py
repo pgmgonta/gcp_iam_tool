@@ -46,6 +46,8 @@ def merge_iam(iam_policies):
         bind = get_dict_list(bindings, 'role', iam_policy['role'])
         if bind == None:
             bindings.append({'role': iam_policy['role'], 'members':iam_policy['members']})
+        else:
+            bind['members'].extend(iam_policy['members'])
 
     print_json(origin)
 
