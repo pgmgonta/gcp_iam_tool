@@ -1,0 +1,10 @@
+administrator:
+  - admin1@example.com
+  - admin2@example.com
+
+developer:
+  - user1@example.com
+  - user2@example.com
+
+analyst:
+  - ana1@example.com

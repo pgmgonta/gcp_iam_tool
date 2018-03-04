@@ -1,0 +1,11 @@
+
+- administrator:
+    - roles/editor
+
+- developer:
+    - roles/bigquery.dataViewer
+    - roles/bigquery.user
+
+- analyst:
+    - roles/bigquery.dataViewer
+    - roles/bigquery.user
